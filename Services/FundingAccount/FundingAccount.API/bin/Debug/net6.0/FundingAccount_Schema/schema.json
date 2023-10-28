@@ -1,0 +1,925 @@
+{
+  "type": "object",
+  "properties": {
+    "Unregistered": {
+      "title": "Root",
+      "type": "object",
+      "required": [
+        "id",
+        "paymentDate",
+        "fundingAccount",
+        "origination",
+        "payer",
+        "accountPayments"
+      ],
+      "properties": {
+        "id": {
+          "$id": "#root/id",
+          "title": "Id",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "1"
+          ],
+          "pattern": "^.*$"
+        },
+        "paymentDate": {
+          "$id": "#root/paymentDate",
+          "title": "Paymentdate",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "2023-08-22"
+          ],
+          "pattern": "^.*$"
+        },
+        "fundingAccount": {
+          "$id": "#root/fundingAccount",
+          "title": "Fundingaccount",
+          "type": "object",
+          "required": [
+            "token",
+            "securityCode"
+          ],
+          "properties": {
+            "token": {
+              "$id": "#root/fundingAccount/token",
+              "title": "Token",
+              "type": "string",
+              "default": "",             
+              "pattern": "^.*$"
+            },
+            "securityCode": {
+              "$id": "#root/fundingAccount/securityCode",
+              "title": "Securitycode",
+              "type": "string",
+              "default": "",            
+              "pattern": "^.*$"
+            }
+          }
+        },
+        "origination": {
+          "$id": "#root/origination",
+          "title": "Origination",
+          "type": "object",
+          "required": [
+            "originator",
+            "paymentChannelKind",
+            "paymentOption"
+          ],
+          "properties": {
+            "originator": {
+              "$id": "#root/origination/originator",
+              "title": "Originator",
+              "type": "object",
+              "required": [
+                "kind"
+              ],
+              "properties": {
+                "kind": {
+                  "$id": "#root/origination/originator/kind",
+                  "title": "Kind",
+                  "type": "string",
+                  "default": "",
+                  "examples": [
+                    "User"
+                  ],
+                  "pattern": "^.*$"
+                }
+              }
+            },
+            "paymentChannelKind": {
+              "$id": "#root/origination/paymentChannelKind",
+              "title": "Paymentchannelkind",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "Web"
+              ],
+              "pattern": "^.*$"
+            },
+            "paymentOption": {
+              "$id": "#root/origination/paymentOption",
+              "title": "Paymentoption",
+              "type": "object",
+              "required": [
+                "kind"
+              ],
+              "properties": {
+                "kind": {
+                  "$id": "#root/origination/paymentOption/kind",
+                  "title": "Kind",
+                  "type": "string",
+                  "default": "",
+                  "examples": [
+                    "OneTimeNow"
+                  ],
+                  "pattern": "^.*$"
+                }
+              }
+            }
+
+          }
+        },
+        "payer": {
+          "$id": "#root/payer",
+          "title": "Payer",
+          "type": "object",
+          "required": [
+            "kind",
+            "firstName",
+            "lastName",
+            "middleName",
+            "nameSuffix",
+            "emailAddress",
+            "address",
+            "phoneNumbers"
+          ],
+          "properties": {
+            "kind": {
+              "$id": "#root/payer/kind",
+              "title": "Kind",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "NonEnrolledIndividual"
+              ],
+              "pattern": "^.*$"
+            },
+            "firstName": {
+              "$id": "#root/payer/firstName",
+              "title": "Firstname",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "John"
+              ],
+              "pattern": "^.*$"
+            },
+            "lastName": {
+              "$id": "#root/payer/lastName",
+              "title": "Lastname",
+              "type": "string",
+              "default": "",             
+              "pattern": "^.*$"
+            },
+            "middleName": {
+              "$id": "#root/payer/middleName",
+              "title": "Middlename",
+              "type": "string",
+              "default": "",           
+              "pattern": "^.*$"
+            },
+            "nameSuffix": {
+              "$id": "#root/payer/nameSuffix",
+              "title": "Namesuffix",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "Jr."
+              ],
+              "pattern": "^.*$"
+            },
+            "emailAddress": {
+              "$id": "#root/payer/emailAddress",
+              "title": "Emailaddress",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "test@example.com"
+              ],
+              "pattern": "^.*$"
+            },
+            "address": {
+              "$id": "#root/payer/address",
+              "title": "Address",
+              "type": "object",
+              "required": [
+                "city",
+                "regionCode",
+                "postalCode",
+                "countryCode"
+              ],
+              "properties": {
+                "city": {
+                  "$id": "#root/payer/address/city",
+                  "title": "City",
+                  "type": "string",
+                  "default": "",
+                  "examples": [
+                    "Norcross"
+                  ],
+                  "pattern": "^.*$"
+                },
+                "regionCode": {
+                  "$id": "#root/payer/address/regionCode",
+                  "title": "Regioncode",
+                  "type": "string",
+                  "default": "",
+                  "examples": [
+                    "GA"
+                  ],
+                  "pattern": "^.*$"
+                },
+                "postalCode": {
+                  "$id": "#root/payer/address/postalCode",
+                  "title": "Postalcode",
+                  "type": "string",
+                  "default": "",
+                  "examples": [
+                    "30092"
+                  ],
+                  "pattern": "^.*$"
+                },
+                "countryCode": {
+                  "$id": "#root/payer/address/countryCode",
+                  "title": "Countrycode",
+                  "type": "string",
+                  "default": "",
+                  "examples": [
+                    "US"
+                  ],
+                  "pattern": "^.*$"
+                }
+              }
+            },
+            "phoneNumbers": {
+              "$id": "#root/payer/phoneNumbers",
+              "title": "Phonenumbers",
+              "type": "array",
+              "default": [],
+              "items": {
+                "$id": "#root/payer/phoneNumbers/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                  "kind",
+                  "number",
+                  "allowSms"
+                ],
+                "properties": {
+                  "kind": {
+                    "$id": "#root/payer/phoneNumbers/items/kind",
+                    "title": "Kind",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                      "Mobile"
+                    ],
+                    "pattern": "^.*$"
+                  },
+                  "number": {
+                    "$id": "#root/payer/phoneNumbers/items/number",
+                    "title": "Number",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                      "+14045551234"
+                    ],
+                    "pattern": "^.*$"
+                  },
+                  "allowSms": {
+                    "$id": "#root/payer/phoneNumbers/items/allowSms",
+                    "title": "Allowsms",
+                    "type": "boolean",
+                    "examples": [
+                      true
+                    ],
+                    "default": true
+                  }
+                }
+              }
+
+            }
+          }
+        },
+        "accountPayments": {
+          "$id": "#root/accountPayments",
+          "title": "Accountpayments",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/accountPayments/items",
+            "title": "Items",
+            "type": "object",
+            "required": [
+              "ordinal",
+              "billerAccount",
+              "serviceFeeAmount",
+              "principalAmount"
+            ],
+            "properties": {
+              "ordinal": {
+                "$id": "#root/accountPayments/items/ordinal",
+                "title": "Ordinal",
+                "type": "integer",
+                "examples": [
+                  1
+                ],
+                "default": 0
+              },
+              "billerAccount": {
+                "$id": "#root/accountPayments/items/billerAccount",
+                "title": "Billeraccount",
+                "type": "object",
+                "required": [
+                  "billerAccountId",
+                  "billerId"
+                ],
+                "properties": {
+                  "billerAccountId": {
+                    "$id": "#root/accountPayments/items/billerAccount/billerAccountId",
+                    "title": "Billeraccountid",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                      "1692683334521c1b5c09aea3d454788174dc27ad239e3"
+                    ],
+                    "pattern": "^.*$"
+                  },
+                  "billerId": {
+                    "$id": "#root/accountPayments/items/billerAccount/billerId",
+                    "title": "Billerid",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                      "89621e07-0806-429f-89d9-359a6492caaa"
+                    ],
+                    "pattern": "^.*$"
+                  }
+                }
+              },
+              "serviceFeeAmount": {
+                "$id": "#root/accountPayments/items/serviceFeeAmount",
+                "title": "Servicefeeamount",
+                "type": "object",
+                "required": [
+                  "currencyCode",
+                  "precision",
+                  "value"
+                ],
+                "properties": {
+                  "currencyCode": {
+                    "$id": "#root/accountPayments/items/serviceFeeAmount/currencyCode",
+                    "title": "Currencycode",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                      "USD"
+                    ],
+                    "pattern": "^.*$"
+                  },
+                  "precision": {
+                    "$id": "#root/accountPayments/items/serviceFeeAmount/precision",
+                    "title": "Precision",
+                    "type": "integer",
+                    "examples": [
+                      2
+                    ],
+                    "default": 0
+                  },
+                  "value": {
+                    "$id": "#root/accountPayments/items/serviceFeeAmount/value",
+                    "title": "Value",
+                    "type": "integer",
+                    "examples": [
+                      245
+                    ],
+                    "default": 0
+                  }
+                }
+              },
+              "principalAmount": {
+                "$id": "#root/accountPayments/items/principalAmount",
+                "title": "Principalamount",
+                "type": "object",
+                "required": [
+                  "currencyCode",
+                  "precision",
+                  "value"
+                ],
+                "properties": {
+                  "currencyCode": {
+                    "$id": "#root/accountPayments/items/principalAmount/currencyCode",
+                    "title": "Currencycode",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                      "USD"
+                    ],
+                    "pattern": "^.*$"
+                  },
+                  "precision": {
+                    "$id": "#root/accountPayments/items/principalAmount/precision",
+                    "title": "Precision",
+                    "type": "integer",
+                    "examples": [
+                      2
+                    ],
+                    "default": 0
+                  },
+                  "value": {
+                    "$id": "#root/accountPayments/items/principalAmount/value",
+                    "title": "Value",
+                    "type": "integer",
+                    "examples": [
+                      40000
+                    ],
+                    "default": 0
+                  }
+                }
+              }
+
+            }
+          }
+
+        }
+      }
+    },
+    "Registered": {
+      "title": "Root",
+      "type": "object",
+      "required": [
+        "id",
+        "paymentDate",
+        "fundingAccount",
+        "origination",
+        "payer",
+        "accountPayments"
+      ],
+      "properties": {
+        "id": {
+          "$id": "#root/id",
+          "title": "Id",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "{{payment_id}}"
+          ],
+          "pattern": "^.*$"
+        },
+        "paymentDate": {
+          "$id": "#root/paymentDate",
+          "title": "Paymentdate",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "2023-08-23"
+          ],
+          "pattern": "^.*$"
+        },
+        "fundingAccount": {
+          "$id": "#root/fundingAccount",
+          "title": "Fundingaccount",
+          "type": "object",
+          "required": [
+            "token",
+            "userProfileId",
+            "securityCode"
+          ],
+          "properties": {
+            "token": {
+              "$id": "#root/fundingAccount/token",
+              "title": "Token",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "37830a4462a74dcb4b0ed56c8a00be17ad8b1f4cf9ffb3eb49db44a6d289a66d"
+              ],
+              "pattern": "^.*$"
+            },
+            "userProfileId": {
+              "$id": "#root/fundingAccount/userProfileId",
+              "title": "Userprofileid",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "6e6d1ee9-ab9d-48e3-996e-58e5796ba3f1"
+              ],
+              "pattern": "^.*$"
+            },
+            "securityCode": {
+              "$id": "#root/fundingAccount/securityCode",
+              "title": "Securitycode",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "123"
+              ],
+              "pattern": "^.*$"
+            }
+          }
+        },
+        "origination": {
+          "$id": "#root/origination",
+          "title": "Origination",
+          "type": "object",
+          "required": [
+            "originator",
+            "paymentChannelKind",
+            "paymentOption"
+          ],
+          "properties": {
+            "originator": {
+              "$id": "#root/origination/originator",
+              "title": "Originator",
+              "type": "object",
+              "required": [
+                "id",
+                "kind"
+              ],
+              "properties": {
+                "id": {
+                  "$id": "#root/origination/originator/id",
+                  "title": "Id",
+                  "type": "string",
+                  "default": "",
+                  "examples": [
+                    "6e6d1ee9-ab9d-48e3-996e-58e5796ba3f1"
+                  ],
+                  "pattern": "^.*$"
+                },
+                "kind": {
+                  "$id": "#root/origination/originator/kind",
+                  "title": "Kind",
+                  "type": "string",
+                  "default": "",
+                  "examples": [
+                    "User"
+                  ],
+                  "pattern": "^.*$"
+                }
+              }
+            },
+            "paymentChannelKind": {
+              "$id": "#root/origination/paymentChannelKind",
+              "title": "Paymentchannelkind",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "Web"
+              ],
+              "pattern": "^.*$"
+            },
+            "paymentOption": {
+              "$id": "#root/origination/paymentOption",
+              "title": "Paymentoption",
+              "type": "object",
+              "required": [
+                "kind"
+              ],
+              "properties": {
+                "kind": {
+                  "$id": "#root/origination/paymentOption/kind",
+                  "title": "Kind",
+                  "type": "string",
+                  "default": "",
+                  "examples": [
+                    "OneTimeNow"
+                  ],
+                  "pattern": "^.*$"
+                }
+              }
+            }
+
+          }
+        },
+        "payer": {
+          "$id": "#root/payer",
+          "title": "Payer",
+          "type": "object",
+          "required": [
+            "kind",
+            "userProfileId",
+            "firstName",
+            "lastName",
+            "middleName",
+            "nameSuffix",
+            "emailAddress",
+            "address",
+            "phoneNumbers"
+          ],
+          "properties": {
+            "kind": {
+              "$id": "#root/payer/kind",
+              "title": "Kind",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "EnrolledIndividual"
+              ],
+              "pattern": "^.*$"
+            },
+            "userProfileId": {
+              "$id": "#root/payer/userProfileId",
+              "title": "Userprofileid",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "6e6d1ee9-ab9d-48e3-996e-58e5796ba3f1"
+              ],
+              "pattern": "^.*$"
+            },
+            "firstName": {
+              "$id": "#root/payer/firstName",
+              "title": "Firstname",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "John"
+              ],
+              "pattern": "^.*$"
+            },
+            "lastName": {
+              "$id": "#root/payer/lastName",
+              "title": "Lastname",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "Smith"
+              ],
+              "pattern": "^.*$"
+            },
+            "middleName": {
+              "$id": "#root/payer/middleName",
+              "title": "Middlename",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "Carter"
+              ],
+              "pattern": "^.*$"
+            },
+            "nameSuffix": {
+              "$id": "#root/payer/nameSuffix",
+              "title": "Namesuffix",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "Jr."
+              ],
+              "pattern": "^.*$"
+            },
+            "emailAddress": {
+              "$id": "#root/payer/emailAddress",
+              "title": "Emailaddress",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "test@example.com"
+              ],
+              "pattern": "^.*$"
+            },
+            "address": {
+              "$id": "#root/payer/address",
+              "title": "Address",
+              "type": "object",
+              "required": [
+                "city",
+                "regionCode",
+                "postalCode",
+                "countryCode"
+              ],
+              "properties": {
+                "city": {
+                  "$id": "#root/payer/address/city",
+                  "title": "City",
+                  "type": "string",
+                  "default": "",
+                  "examples": [
+                    "Norcross"
+                  ],
+                  "pattern": "^.*$"
+                },
+                "regionCode": {
+                  "$id": "#root/payer/address/regionCode",
+                  "title": "Regioncode",
+                  "type": "string",
+                  "default": "",
+                  "examples": [
+                    "GA"
+                  ],
+                  "pattern": "^.*$"
+                },
+                "postalCode": {
+                  "$id": "#root/payer/address/postalCode",
+                  "title": "Postalcode",
+                  "type": "string",
+                  "default": "",
+                  "examples": [
+                    "30092"
+                  ],
+                  "pattern": "^.*$"
+                },
+                "countryCode": {
+                  "$id": "#root/payer/address/countryCode",
+                  "title": "Countrycode",
+                  "type": "string",
+                  "default": "",
+                  "examples": [
+                    "US"
+                  ],
+                  "pattern": "^.*$"
+                }
+              }
+            },
+            "phoneNumbers": {
+              "$id": "#root/payer/phoneNumbers",
+              "title": "Phonenumbers",
+              "type": "array",
+              "default": [],
+              "items": {
+                "$id": "#root/payer/phoneNumbers/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                  "kind",
+                  "number",
+                  "allowSms"
+                ],
+                "properties": {
+                  "kind": {
+                    "$id": "#root/payer/phoneNumbers/items/kind",
+                    "title": "Kind",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                      "Mobile"
+                    ],
+                    "pattern": "^.*$"
+                  },
+                  "number": {
+                    "$id": "#root/payer/phoneNumbers/items/number",
+                    "title": "Number",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                      "+14045551234"
+                    ],
+                    "pattern": "^.*$"
+                  },
+                  "allowSms": {
+                    "$id": "#root/payer/phoneNumbers/items/allowSms",
+                    "title": "Allowsms",
+                    "type": "boolean",
+                    "examples": [
+                      true
+                    ],
+                    "default": true
+                  }
+                }
+              }
+
+            }
+          }
+        },
+        "accountPayments": {
+          "$id": "#root/accountPayments",
+          "title": "Accountpayments",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/accountPayments/items",
+            "title": "Items",
+            "type": "object",
+            "required": [
+              "ordinal",
+              "billerAccount",
+              "serviceFeeAmount",
+              "principalAmount"
+            ],
+            "properties": {
+              "ordinal": {
+                "$id": "#root/accountPayments/items/ordinal",
+                "title": "Ordinal",
+                "type": "integer",
+                "examples": [
+                  1
+                ],
+                "default": 0
+              },
+              "billerAccount": {
+                "$id": "#root/accountPayments/items/billerAccount",
+                "title": "Billeraccount",
+                "type": "object",
+                "required": [
+                  "billerAccountId",
+                  "billerId"
+                ],
+                "properties": {
+                  "billerAccountId": {
+                    "$id": "#root/accountPayments/items/billerAccount/billerAccountId",
+                    "title": "Billeraccountid",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                      "169278555992789878f1ce9584bcdbc936eb4515319b4"
+                    ],
+                    "pattern": "^.*$"
+                  },
+                  "billerId": {
+                    "$id": "#root/accountPayments/items/billerAccount/billerId",
+                    "title": "Billerid",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                      "89621e07-0806-429f-89d9-359a6492caaa"
+                    ],
+                    "pattern": "^.*$"
+                  }
+                }
+              },
+              "serviceFeeAmount": {
+                "$id": "#root/accountPayments/items/serviceFeeAmount",
+                "title": "Servicefeeamount",
+                "type": "object",
+                "required": [
+                  "currencyCode",
+                  "precision",
+                  "value"
+                ],
+                "properties": {
+                  "currencyCode": {
+                    "$id": "#root/accountPayments/items/serviceFeeAmount/currencyCode",
+                    "title": "Currencycode",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                      "USD"
+                    ],
+                    "pattern": "^.*$"
+                  },
+                  "precision": {
+                    "$id": "#root/accountPayments/items/serviceFeeAmount/precision",
+                    "title": "Precision",
+                    "type": "integer",
+                    "examples": [
+                      2
+                    ],
+                    "default": 0
+                  },
+                  "value": {
+                    "$id": "#root/accountPayments/items/serviceFeeAmount/value",
+                    "title": "Value",
+                    "type": "integer",
+                    "examples": [
+                      245
+                    ],
+                    "default": 0
+                  }
+                }
+              },
+              "principalAmount": {
+                "$id": "#root/accountPayments/items/principalAmount",
+                "title": "Principalamount",
+                "type": "object",
+                "required": [
+                  "currencyCode",
+                  "precision",
+                  "value"
+                ],
+                "properties": {
+                  "currencyCode": {
+                    "$id": "#root/accountPayments/items/principalAmount/currencyCode",
+                    "title": "Currencycode",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                      "USD"
+                    ],
+                    "pattern": "^.*$"
+                  },
+                  "precision": {
+                    "$id": "#root/accountPayments/items/principalAmount/precision",
+                    "title": "Precision",
+                    "type": "integer",
+                    "examples": [
+                      2
+                    ],
+                    "default": 0
+                  },
+                  "value": {
+                    "$id": "#root/accountPayments/items/principalAmount/value",
+                    "title": "Value",
+                    "type": "integer",
+                    "examples": [
+                      40000
+                    ],
+                    "default": 0
+                  }
+                }
+              }
+
+            }
+          }
+
+        }
+      }
+
+    }
+  },
+  "oneOf": [
+    { "required": [ "Unregistered" ] },
+    { "required": [ "Registered" ] }
+  ]
+}

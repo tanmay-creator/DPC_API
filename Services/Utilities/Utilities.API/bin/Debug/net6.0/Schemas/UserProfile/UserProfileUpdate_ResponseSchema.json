@@ -1,0 +1,254 @@
+{
+	"title": "Root",
+	"type": "object",
+	"required": [
+		"id",
+		"firstName",
+		"lastName",
+		"phoneNumbers",
+		"communicationPreferences",
+		"billerAccounts",
+		"authorizedUsers"
+		//"defaultFundingAccountId",
+		//"middleName",
+		//"nameSuffix",
+		//"emailAddress",
+		//"homeAddress"
+
+	],
+	"properties": {
+		"id": {
+			"$id": "#root/id",
+			"title": "Id",
+			"type": "string",
+			"minLength": 1,
+			"pattern": "^.*$"
+		},
+		"firstName": {
+			"$id": "#root/firstName",
+			"title": "Firstname",
+			"type": "string",
+			"minLength": 1,
+			"pattern": "^.*$"
+		},
+		"middleName": {
+			"$id": "#root/middleName",
+			"title": "Middlename",
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"lastName": {
+			"$id": "#root/lastName",
+			"title": "Lastname",
+			"type": "string",
+			"minLength": 1,
+			"pattern": "^.*$"
+		},
+		"nameSuffix": {
+			"$id": "#root/nameSuffix",
+			"title": "Namesuffix",
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"emailAddress": {
+			"$id": "#root/emailAddress",
+			"title": "Emailaddress",
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"homeAddress": {
+			"$id": "#root/homeAddress",
+			"title": "Homeaddress",
+			"type": "object",
+			"required": [
+				//"lines",
+				//"city",
+				"postalCode",
+				"regionCode",
+				"countryCode"
+			],
+			"properties": {
+				"lines": {
+					"$id": "#root/homeAddress/lines",
+					"title": "Lines",
+					"type": "array",
+					"items": {
+						"$id": "#root/homeAddress/lines/items",
+						"title": "Items",
+						"type": "string",
+						"pattern": "^.*$"
+					}
+				},
+				"city": {
+					"$id": "#root/homeAddress/city",
+					"title": "City",
+					"type": "string",
+					"pattern": "^.*$"
+				},
+				"postalCode": {
+					"$id": "#root/homeAddress/postalCode",
+					"title": "Postalcode",
+					"type": "string",
+					"minLength": 1,
+					"pattern": "^.*$"
+				},
+				"regionCode": {
+					"$id": "#root/homeAddress/regionCode",
+					"title": "Regioncode",
+					"type": "string",
+					"minLength": 1,
+					"pattern": "^.*$"
+				},
+				"countryCode": {
+					"$id": "#root/homeAddress/countryCode",
+					"title": "Countrycode",
+					"type": "string",
+					"minLength": 1,
+					"pattern": "^.*$"
+				}
+			}
+		},
+		"phoneNumbers": {
+			"$id": "#root/phoneNumbers",
+			"title": "Phonenumbers",
+			"type": "array",
+			"items": {
+				"$id": "#root/phoneNumbers/items",
+				"title": "Items",
+				"type": "object",
+				"required": [
+					"kind",
+					"number"
+				],
+				"properties": {
+					"kind": {
+						"$id": "#root/phoneNumbers/items/kind",
+						"title": "Kind",
+						"type": "string",
+						"minLength": 1,
+						"enum": [ "Mobile", "Home" ],
+						"pattern": "^.*$"
+					},
+					"number": {
+						"$id": "#root/phoneNumbers/items/number",
+						"title": "Number",
+						"type": "string",
+						"minLength": 1,
+						"pattern": "^.*$"
+					}
+				}
+			}
+
+		},
+		"defaultFundingAccountId": {
+			"$id": "#root/defaultFundingAccountId",
+			"title": "Defaultfundingaccountid",
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"communicationPreferences": {
+			"$id": "#root/communicationPreferences",
+			"title": "Communicationpreferences",
+			"type": "array",
+			"items": {
+				"$id": "#root/communicationPreferences/items",
+				"title": "Items",
+				"type": "object",
+				"required": [
+					"kind"
+					//"emailAddress",
+					//"enabledNotifications",
+					//"useDefault"
+				],
+				"properties": {
+					"kind": {
+						"$id": "#root/communicationPreferences/items/kind",
+						"title": "Kind",
+						"type": "string",
+						"enum": [ "Email", "Sms" ],
+						"minLength": 1,
+						"pattern": "^.*$"
+					},
+					"emailAddress": {
+						"$id": "#root/communicationPreferences/items/emailAddress",
+						"title": "Emailaddress",
+						"type": "string",
+						"pattern": "^.*$"
+					},
+					"enabledNotifications": {
+						"$id": "#root/communicationPreferences/items/enabledNotifications",
+						"title": "Enablednotifications",
+						"type": "array",
+						"items": {
+							"$id": "#root/communicationPreferences/items/enabledNotifications/items",
+							"title": "Items",
+							"type": "string",
+							"enum": [ "PaymentConfirmation", "PaymentDue" ],
+							"pattern": "^.*$"
+						}
+					},
+					"useDefault": {
+						"$id": "#root/communicationPreferences/items/useDefault",
+						"title": "Usedefault",
+						"type": "boolean"
+						//"default": true
+					}
+				}
+			}
+
+		},
+		"billerAccounts": {
+			"$id": "#root/billerAccounts",
+			"title": "Billeraccounts",
+			"type": "array",
+			"items": {
+				"$id": "#root/billerAccounts/items",
+				"title": "Items",
+				"type": "object",
+				"required": [
+					"kind",
+					//"status",
+					"billerId",
+					"billerAccountId"
+				],
+				"properties": {
+					"kind": {
+						"$id": "#root/billerAccounts/items/kind",
+						"title": "Kind",
+						"type": "string",
+						"minLength": 1,
+						"enum": [ "PrimaryUser" ],
+						"pattern": "^.*$"
+					},
+					"status": {
+						"$id": "#root/billerAccounts/items/status",
+						"title": "Status",
+						"type": "string",
+						"pattern": "^.*$"
+					},
+					"billerId": {
+						"$id": "#root/billerAccounts/items/billerId",
+						"title": "Billerid",
+						"type": "string",
+						"minLength": 1,
+						"pattern": "^.*$"
+					},
+					"billerAccountId": {
+						"$id": "#root/billerAccounts/items/billerAccountId",
+						"title": "Billeraccountid",
+						"type": "string",
+						"minLength": 1,
+						"pattern": "^.*$"
+					}
+				}
+			}
+
+		},
+		"authorizedUsers": {
+			"$id": "#root/authorizedUsers",
+			"title": "Authorizedusers",
+			"type": "array",
+			"default": []
+		}
+	}
+}

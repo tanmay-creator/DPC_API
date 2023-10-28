@@ -1,0 +1,186 @@
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\RedisService.API.csproj.AssemblyReference.cache
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\RedisService.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\RedisService.API.AssemblyInfoInputs.cache
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\RedisService.API.AssemblyInfo.cs
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\RedisService.API.csproj.CoreCompileInputs.cache
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\RedisService.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\RedisService.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\appsettings.json
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\RedisService.API.exe
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\RedisService.API.deps.json
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\RedisService.API.runtimeconfig.json
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\RedisService.API.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\RedisService.API.pdb
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\staticwebassets\msbuild.RedisService.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\staticwebassets\msbuild.build.RedisService.API.props
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RedisService.API.props
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RedisService.API.props
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\scopedcss\bundle\RedisService.API.styles.css
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\RedisService.API.csproj.CopyComplete
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\RedisService.API.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\refint\RedisService.API.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\RedisService.API.pdb
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\RedisService.API.genruntimeconfig.cache
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\obj\Debug\net6.0\ref\RedisService.API.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Humanizer.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\System.CodeDom.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\StackExchange.Redis.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\schema.json
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\Newtonsoft.Json.Schema.dll
+C:\Oracle_DPC_Git\DEPC_Metlife_Other\dpc-code-snippets\RedisService.API\bin\Debug\net6.0\schema2.json
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\appsettings.json
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\schema2.json
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\schema.json
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\RedisService.API.exe
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\RedisService.API.deps.json
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\RedisService.API.runtimeconfig.json
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\RedisService.API.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\RedisService.API.pdb
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Newtonsoft.Json.Schema.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\StackExchange.Redis.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\RedisService.API.csproj.AssemblyReference.cache
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\RedisService.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\RedisService.API.AssemblyInfoInputs.cache
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\RedisService.API.AssemblyInfo.cs
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\RedisService.API.csproj.CoreCompileInputs.cache
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\RedisService.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\RedisService.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\staticwebassets\msbuild.RedisService.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\staticwebassets\msbuild.build.RedisService.API.props
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RedisService.API.props
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RedisService.API.props
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\scopedcss\bundle\RedisService.API.styles.css
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\RedisService.API.csproj.CopyComplete
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\RedisService.API.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\refint\RedisService.API.dll
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\RedisService.API.pdb
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\RedisService.API.genruntimeconfig.cache
+C:\Users\Jairaj Pillai\Downloads\RedisService.API\obj\Debug\net6.0\ref\RedisService.API.dll

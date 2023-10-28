@@ -1,0 +1,589 @@
+{
+	"title": "Root", 
+	"type": "object",
+	"required": [
+		"id",
+		"paymentDate",
+		"actualTransactionDate",
+		"transactionTimestamp",
+		//"transactionStatus",
+		"message",
+		"confirmationCode",
+		"origination",
+		//"payer",
+		"fundingAccountSummary",
+		"accountTransactionResults"
+	],
+	"properties": {
+		"id": {
+			"$id": "#root/id",
+			"title": "Id",
+			"type": "string",
+			"minLength": 1,
+			"pattern": "^.*$"
+		},
+		"paymentDate": {
+			"$id": "#root/paymentDate", 
+			"title": "Paymentdate", 
+			"type": "string",
+			"minLength": 1,
+			"pattern": "^.*$"
+		},
+		"actualTransactionDate": {
+			"$id": "#root/actualTransactionDate",
+			"title": "Actualtransactiondate",
+			"type": "string",
+			"minLength": 1,
+			"pattern": "^.*$"
+		},
+		"transactionTimestamp": {
+			"$id": "#root/transactionTimestamp",
+			"title": "Transactiontimestamp",
+			"type": "string",
+			"minLength": 1,
+			"pattern": "^.*$"
+		},
+		"transactionStatus": {
+			"$id": "#root/transactionStatus", 
+			"title": "Transactionstatus", 
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"message": {
+			"$id": "#root/message", 
+			"title": "Message", 
+			"type": "object",
+			"required": [
+				"code",
+				"default"
+			],
+			"properties": {
+				"code": {
+					"$id": "#root/message/code",
+					"title": "Code",
+					"type": "string",
+					"minLength": 1,
+					"pattern": "^.*$"
+				},
+				"default": {
+					"$id": "#root/message/default", 
+					"title": "Default", 
+					"type": "string",
+					"pattern": "^.*$"
+				}
+			}
+		}
+,
+		"confirmationCode": {
+			"$id": "#root/confirmationCode",
+			"title": "Confirmationcode",
+			"type": "string",
+			"minLength": 1,
+			"pattern": "^.*$"
+		},
+		"origination": {
+			"$id": "#root/origination", 
+			"title": "Origination", 
+			"type": "object",
+			"required": [
+				//"originator",
+				"paymentChannelKind",
+				"paymentOption"
+			],
+			"properties": {
+				"originator": {
+					"$id": "#root/origination/originator", 
+					"title": "Originator", 
+					"type": "object",
+					"required": [
+						"kind"
+						//"id"
+					],
+					"properties": {
+						"kind": {
+							"$id": "#root/origination/originator/kind",
+							"title": "Kind",
+							"type": "string",
+							"minLength": 1,
+							"enum": ["User"],
+							"pattern": "^.*$"
+						},
+						"id": {
+							"$id": "#root/origination/originator/id",
+							"title": "Id",
+							"type": "string",
+							"pattern": "^.*$"
+						}
+					}
+				}
+,
+				"paymentChannelKind": {
+					"$id": "#root/origination/paymentChannelKind",
+					"title": "Paymentchannelkind",
+					"type": "string",
+					"enum": [ "Web", "MobileWeb", "Ivr", "Kiosk", "Pos", "Csr", "MobileNative" ],
+					"minLength": 1,
+					"pattern": "^.*$"
+				},
+				"paymentOption": {
+					"$id": "#root/origination/paymentOption", 
+					"title": "Paymentoption", 
+					"type": "object",
+					"required": [
+						"kind"
+					],
+					"properties": {
+						"kind": {
+							"$id": "#root/origination/paymentOption/kind",
+							"title": "Kind",
+							"type": "string",
+							"minLength": 1,
+							"enum": [ "OneTimeNow" ],
+							"pattern": "^.*$"
+						}
+					}
+				}
+
+			}
+		}
+,
+		"payer": {
+			"$id": "#root/payer", 
+			"title": "Payer", 
+			"type": "object",
+			"required": [
+				"kind",
+				//"address",
+				//"emailAddress",
+				//"phoneNumbers",
+				//"firstName",
+				//"middleName",
+				//"lastName",
+				//"nameSuffix",
+				"userProfileId"
+			],
+			"properties": {
+				"kind": {
+					"$id": "#root/payer/kind",
+					"title": "Kind",
+					"type": "string",
+					"minLength": 1,
+					"enum": [ "EnrolledIndividual" ],
+					"pattern": "^.*$"
+				},
+				"address": {
+					"$id": "#root/payer/address", 
+					"title": "Address", 
+					"type": "object",
+					"required": [
+						//"city",
+						//"regionCode",
+						"postalCode",
+						"countryCode"
+					],
+					"properties": {
+						"city": {
+							"$id": "#root/payer/address/city", 
+							"title": "City", 
+							"type": "string",
+							"pattern": "^.*$"
+						},
+						"regionCode": {
+							"$id": "#root/payer/address/regionCode",
+							"title": "Regioncode",
+							"type": "string",
+							"pattern": "^.*$"
+						},
+						"postalCode": {
+							"$id": "#root/payer/address/postalCode",
+							"title": "Postalcode",
+							"type": "string",
+							"minLength": 1,
+							"pattern": "^.*$"
+						},
+						"countryCode": {
+							"$id": "#root/payer/address/countryCode",
+							"title": "Countrycode",
+							"type": "string",
+							"minLength": 1,
+							"pattern": "^.*$"
+						}
+					}
+				}
+,
+				"emailAddress": {
+					"$id": "#root/payer/emailAddress", 
+					"title": "Emailaddress", 
+					"type": "string",
+					"pattern": "^.*$"
+				},
+				"phoneNumbers": {
+					"$id": "#root/payer/phoneNumbers", 
+					"title": "Phonenumbers", 
+					"type": "array",
+					"items":{
+						"$id": "#root/payer/phoneNumbers/items", 
+						"title": "Items", 
+						"type": "object",
+						"required": [
+							"kind",
+							"number"
+							//"allowSms"
+						],
+						"properties": {
+							"kind": {
+								"$id": "#root/payer/phoneNumbers/items/kind",
+								"title": "Kind",
+								"type": "string",
+								"minLength": 1,
+								"enum": [ "Mobile", "Home" ],
+								"pattern": "^.*$"
+							},
+							"number": {
+								"$id": "#root/payer/phoneNumbers/items/number",
+								"title": "Number",
+								"type": "string",
+								"minLength": 1,
+								"pattern": "^.*$"
+							},
+							"allowSms": {
+								"$id": "#root/payer/phoneNumbers/items/allowSms", 
+								"title": "Allowsms", 
+								"type": "boolean"
+							}
+						}
+					}
+
+				},
+				"firstName": {
+					"$id": "#root/payer/firstName", 
+					"title": "Firstname", 
+					"type": "string",
+					"pattern": "^.*$"
+				},
+				"middleName": {
+					"$id": "#root/payer/middleName", 
+					"title": "Middlename", 
+					"type": "string",
+					"pattern": "^.*$"
+				},
+				"lastName": {
+					"$id": "#root/payer/lastName", 
+					"title": "Lastname", 
+					"type": "string",
+					"pattern": "^.*$"
+				},
+				"nameSuffix": {
+					"$id": "#root/payer/nameSuffix", 
+					"title": "Namesuffix", 
+					"type": "string",
+					"pattern": "^.*$"
+				},
+				"userProfileId": {
+					"$id": "#root/payer/userProfileId",
+					"title": "Userprofileid",
+					"type": "string",
+					"minLength": 1,
+					"pattern": "^.*$"
+				}
+			}
+		}
+,
+		"fundingAccountSummary": {
+			"$id": "#root/fundingAccountSummary", 
+			"title": "Fundingaccountsummary", 
+			"type": "object",
+			"required": [
+				"kind",
+				"paymentMethodKind",
+				"brandKind",
+				//"name",
+				"truncatedAccountNumber",
+				"accountHolder",
+				"aba",
+				"bankAccountHash"
+				//"userProfileId"
+			],
+			"properties": {
+				"kind": {
+					"$id": "#root/fundingAccountSummary/kind",
+					"title": "Kind",
+					"type": "string",
+					"minLength": 1,
+					"enum": ["Ach"],
+					"pattern": "^.*$"
+				},
+				"paymentMethodKind": {
+					"$id": "#root/fundingAccountSummary/paymentMethodKind",
+					"title": "Paymentmethodkind",
+					"type": "string",
+					"minLength": 1,
+					"enum": ["CreditCard","DebitCard","Ach","ApplePay","GooglePay"],
+					"pattern": "^.*$"
+				},
+				"brandKind": {
+					"$id": "#root/fundingAccountSummary/brandKind",
+					"title": "Brandkind",
+					"type": "string",
+					"minLength": 1,
+					"enum": [ "BusinessChecking", "BusinessSavings", "PersonalChecking", "PersonalSavings" ],
+					"pattern": "^.*$"
+				},
+				"name": {
+					"$id": "#root/fundingAccountSummary/name", 
+					"title": "Name", 
+					"type": "string",
+					"pattern": "^.*$"
+				},
+				"truncatedAccountNumber": {
+					"$id": "#root/fundingAccountSummary/truncatedAccountNumber",
+					"title": "Truncatedaccountnumber",
+					"type": "string",
+					"minLength": 1,
+					"pattern": "^.*$"
+				},
+				"accountHolder": {
+					"$id": "#root/fundingAccountSummary/accountHolder", 
+					"title": "Accountholder", 
+					"type": "object",
+					"required": [
+						"name",
+						"address"
+					],
+					"properties": {
+						"name": {
+							"$id": "#root/fundingAccountSummary/accountHolder/name",
+							"title": "Name",
+							"type": "string",
+							"minLength": 1,
+							"pattern": "^.*$"
+						},
+						"address": {
+							"$id": "#root/fundingAccountSummary/accountHolder/address", 
+							"title": "Address", 
+							"type": "object",
+							"required": [
+								//"lines",
+								//"city",
+								//"regionCode",
+								"postalCode",
+								"countryCode"
+							],
+							"properties": {
+								"lines": {
+									"$id": "#root/fundingAccountSummary/accountHolder/address/lines", 
+									"title": "Lines", 
+									"type": "array",
+									"items":{
+										"$id": "#root/fundingAccountSummary/accountHolder/address/lines/items", 
+										"title": "Items", 
+										"type": "string",
+										"pattern": "^.*$"
+									}
+								},
+								"city": {
+									"$id": "#root/fundingAccountSummary/accountHolder/address/city", 
+									"title": "City", 
+									"type": "string",
+									"pattern": "^.*$"
+								},
+								"regionCode": {
+									"$id": "#root/fundingAccountSummary/accountHolder/address/regionCode",
+									"title": "Regioncode",
+									"type": "string",
+									"pattern": "^.*$"
+								},
+								"postalCode": {
+									"$id": "#root/fundingAccountSummary/accountHolder/address/postalCode",
+									"title": "Postalcode",
+									"type": "string",
+									"minLength": 1,
+									"pattern": "^.*$"
+								},
+								"countryCode": {
+									"$id": "#root/fundingAccountSummary/accountHolder/address/countryCode",
+									"title": "Countrycode",
+									"type": "string",
+									"minLength": 1,
+									"pattern": "^.*$"
+								}
+							}
+						}
+
+					}
+				}
+,
+				"aba": {
+					"$id": "#root/fundingAccountSummary/aba",
+					"title": "Aba",
+					"type": "string",
+					"minLength": 1,
+					"pattern": "^.*$"
+				},
+				"bankAccountHash": {
+					"$id": "#root/fundingAccountSummary/bankAccountHash",
+					"title": "Bankaccounthash",
+					"type": "string",
+					"minLength": 1,
+					"pattern": "^.*$"
+				},
+				"userProfileId": {
+					"$id": "#root/fundingAccountSummary/userProfileId", 
+					"title": "Userprofileid", 
+					"type": "string",
+					"pattern": "^.*$"
+				}
+			}
+		}
+,
+		"accountTransactionResults": {
+			"$id": "#root/accountTransactionResults", 
+			"title": "Accounttransactionresults", 
+			"type": "array",
+			"items":{
+				"$id": "#root/accountTransactionResults/items", 
+				"title": "Items", 
+				"type": "object",
+				"required": [
+					//"ordinal",
+					//"billerAccount",
+					//"principalAmount",
+					//"serviceFeeAmount"
+					//"customFields"
+				],
+				"properties": {
+					"ordinal": {
+						"$id": "#root/accountTransactionResults/items/ordinal",
+						"title": "Ordinal",
+						"type": "integer"
+						//"minLength": 1
+					},
+					"billerAccount": {
+						"$id": "#root/accountTransactionResults/items/billerAccount", 
+						"title": "Billeraccount", 
+						"type": "object",
+						"required": [
+							"billerId",
+							"billerAccountId"
+						],
+						"properties": {
+							"billerId": {
+								"$id": "#root/accountTransactionResults/items/billerAccount/billerId",
+								"title": "Billerid",
+								"type": "string",
+								"minLength": 1,
+								"pattern": "^.*$"
+							},
+							"billerAccountId": {
+								"$id": "#root/accountTransactionResults/items/billerAccount/billerAccountId",
+								"title": "Billeraccountid",
+								"type": "string",
+								"minLength": 1,
+								"pattern": "^.*$"
+							}
+						}
+					}
+,
+					"principalAmount": {
+						"$id": "#root/accountTransactionResults/items/principalAmount", 
+						"title": "Principalamount", 
+						"type": "object",
+						"required": [
+							"value",
+							"precision",
+							"currencyCode"
+						],
+						"properties": {
+							"value": {
+								"$id": "#root/accountTransactionResults/items/principalAmount/value",
+								"title": "Value",
+								"type": "integer",
+								"minLength": 1
+							},
+							"precision": {
+								"$id": "#root/accountTransactionResults/items/principalAmount/precision",
+								"title": "Precision",
+								"type": "integer",
+								"minLength": 1
+							},
+							"currencyCode": {
+								"$id": "#root/accountTransactionResults/items/principalAmount/currencyCode",
+								"title": "Currencycode",
+								"type": "string",
+								"minLength": 1,
+								"enum": ["USD"],
+								"pattern": "^.*$"
+							}
+						}
+					}
+,
+					"serviceFeeAmount": {
+						"$id": "#root/accountTransactionResults/items/serviceFeeAmount", 
+						"title": "Servicefeeamount", 
+						"type": "object",
+						"required": [
+							"value",
+							"precision",
+							"currencyCode"
+						],
+						"properties": {
+							"value": {
+								"$id": "#root/accountTransactionResults/items/serviceFeeAmount/value",
+								"title": "Value",
+								"type": "integer",
+								"minLength": 1
+							},
+							"precision": {
+								"$id": "#root/accountTransactionResults/items/serviceFeeAmount/precision",
+								"title": "Precision",
+								"type": "integer",
+								"minLength": 1
+							},
+							"currencyCode": {
+								"$id": "#root/accountTransactionResults/items/serviceFeeAmount/currencyCode",
+								"title": "Currencycode",
+								"type": "string",
+								"minLength": 1,
+								"enum": [ "USD" ],
+								"pattern": "^.*$"
+							}
+						}
+					}
+,
+					"customFields": {
+						"$id": "#root/accountTransactionResults/items/customFields", 
+						"title": "Customfields", 
+						"type": "array",
+						"items":{
+							"$id": "#root/accountTransactionResults/items/customFields/items", 
+							"title": "Items", 
+							"type": "object",
+							"required": [
+								"id",
+								"value"
+							],
+							"properties": {
+								"id": {
+									"$id": "#root/accountTransactionResults/items/customFields/items/id",
+									"title": "Id",
+									"type": "string",
+									"minLength": 1,
+									"pattern": "^.*$"
+								},
+								"value": {
+									"$id": "#root/accountTransactionResults/items/customFields/items/value",
+									"title": "Value",
+									"type": "string",
+									"minLength": 1,
+									"pattern": "^.*$"
+								}
+							}
+						}
+
+					}
+				}
+			}
+
+		}
+	}
+}

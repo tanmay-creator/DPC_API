@@ -1,0 +1,27 @@
+﻿using FundingAccount.API.Domain.Exceptions;
+
+namespace FundingAccount.API.Domain.Exceptions
+{
+    public class ServiceNotAvailableException : Exception
+    {
+        
+        #region Variables
+
+        private const string DefaultMessage = "Entity does not exist.";
+        public string errorCat { get; }
+        public string vendor { get; }
+        public string lobSchemaName { get; }
+        public int EntityId { get; }
+        #endregion
+
+        protected ServiceNotAvailableException(string message) : base(message)
+        {
+        }
+        public ServiceNotAvailableException(string vendorCode, string lobName) : base(vendorCode)
+        {
+            errorCat = ErrorCategory.ServiceNotAvailable.ToString();
+            vendor = vendorCode;
+            lobSchemaName = lobName;
+        }
+    }
+}

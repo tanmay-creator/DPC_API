@@ -1,0 +1,34 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:59342",
+      "sslPort": 44320
+    }
+  },
+  "profiles": {
+    "Transactions.API": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7176;http://localhost:5271",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AZURE_CLIENT_ID": "12e3fca8-695e-4e27-a2df-93f7869ff1c9",
+        "AZURE_TENANT_ID": "b4feb9b5-d957-4fbc-ae8c-781121f3fe1e",
+        "AZURE_CLIENT_SECRET": "oqJ8Q~9JlmcFKB-nM8x7UKPHHH0wWRaOBDunkdlu"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

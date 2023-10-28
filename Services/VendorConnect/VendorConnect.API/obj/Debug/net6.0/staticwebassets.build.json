@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RjrnmhAuOP8wUuxH63Fp2QjNp25KnWMptoZwL+FkxjY=",
+  "Source": "VendorConnect.API",
+  "BasePath": "_content/VendorConnect.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

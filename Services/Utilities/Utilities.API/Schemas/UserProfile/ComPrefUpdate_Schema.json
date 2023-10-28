@@ -1,0 +1,55 @@
+﻿{
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "kind"
+    //"emailAddress",
+    //"enabledNotifications",
+    //"useDefault"
+  ],
+  "properties": {
+    "kind": {
+      "$id": "#root/kind",
+      "title": "Kind",
+      "type": "string",
+      "enum": [ "Email","Sms" ],
+      "pattern": "^.*$"
+    },
+    //"emailAddress": {
+    //  "$id": "#root/emailAddress",
+    //  "title": "Emailaddress",
+    //  "type": "string",
+    //  "pattern": "^.*$"
+    //},
+    "emailAddress": {
+      "$id": "#root/communicationPreferences/items/emailAddress",
+      "title": "Emailaddress",
+      "type": [ "string", "null" ],
+      "pattern": "^.*$"
+    },
+    "mobileNumber": {
+      "$id": "#root/communicationPreferences/items/mobileNumber",
+      "title": "MobileNumber",
+      "type": [ "string", "null" ],
+      "pattern": "^.*$"
+    },
+    "enabledNotifications": {
+      "$id": "#root/enabledNotifications",
+      "title": "Enablednotifications",
+      "type": "array",
+      "items": {
+        "$id": "#root/enabledNotifications/items",
+        "title": "Items",
+        "type": "string",
+        "enum": [ "PaymentDue", "PaymentConfirmation" ],
+        "pattern": "^.*$"
+      }
+    },
+    "useDefault": {
+      "$id": "#root/useDefault",
+      "title": "Usedefault",
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

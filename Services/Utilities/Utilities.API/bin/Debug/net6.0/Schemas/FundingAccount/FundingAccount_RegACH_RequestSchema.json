@@ -1,0 +1,152 @@
+{
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "owner",
+    "kind",
+    "brandKind",
+    "aba",
+    "dda",
+    "accountHolderName",
+    "billingAddress"
+    //"Name",
+    //"paymentMethodKind",
+    //"singleUse"
+  ],
+  "properties": {
+    "owner": {
+      "$id": "#root/owner",
+      "title": "Owner",
+      "type": "object",
+      "required": [
+        "kind",
+        "profileId"
+      ],
+      "properties": {
+        "kind": {
+          "$id": "#root/owner/kind",
+          "title": "Kind",
+          "type": "string",
+          "minLength": 1,
+          "enum": [ "ProfileOwner" ],
+          "pattern": "^.*$"
+        },
+        "profileId": {
+          "$id": "#root/owner/profileId",
+          "title": "Profileid",
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^.*$"
+        }
+      }
+    },
+    "kind": {
+      "$id": "#root/kind",
+      "title": "Kind",
+      "type": "string",
+      "minLength": 1,
+      "enum": ["Ach" ],
+      "pattern": "^.*$"
+    },
+    //"name": {
+    //  "$id": "#root/name",
+    //  "title": "name",
+    //  "type": "string",
+    //  "minLength": 1,
+    //  "pattern": "^.*$"
+    //},
+    "paymentMethodKind": {
+      "$id": "#root/paymentMethodKind",
+      "title": "Paymentmethodkind",
+      "type": "string",
+      "pattern": "^.*$"
+    },
+    "brandKind": {
+      "$id": "#root/brandKind",
+      "title": "Brandkind",
+      "type": "string",
+      "minLength": 1,
+      "enum": [ "BusinessChecking","BusinessSavings", "PersonalChecking", "PersonalSavings" ],
+      "pattern": "^.*$"
+    },
+    "aba": {
+      "$id": "#root/aba",
+      "title": "Aba",
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^.*$"
+    },
+    "dda": {
+      "$id": "#root/dda",
+      "title": "Dda",
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^.*$"
+    },
+    "accountHolderName": {
+      "$id": "#root/accountHolderName",
+      "title": "Accountholdername",
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^.*$"
+    },
+    "billingAddress": {
+      "$id": "#root/billingAddress",
+      "title": "Billingaddress",
+      "type": "object",
+      "required": [
+        //"lines",
+        //"city",
+        "regionCode",
+        "postalCode",
+        "countryCode"
+      ],
+      "properties": {
+        "lines": {
+          "$id": "#root/billingAddress/lines",
+          "title": "Lines",
+          "type": "array",
+          "items": {
+            "$id": "#root/billingAddress/lines/items",
+            "title": "Items",
+            "type": "string",
+            "pattern": "^.*$"
+          }
+        },
+        "city": {
+          "$id": "#root/billingAddress/city",
+          "title": "City",
+          "type": "string",
+          "pattern": "^.*$"
+        },
+        "regionCode": {
+          "$id": "#root/billingAddress/regionCode",
+          "title": "Regioncode",
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^.*$"
+        },
+        "postalCode": {
+          "$id": "#root/billingAddress/postalCode",
+          "title": "Postalcode",
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^.*$"
+        },
+        "countryCode": {
+          "$id": "#root/billingAddress/countryCode",
+          "title": "Countrycode",
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^.*$"
+        }
+      }
+    },
+    "singleUse": {
+      "$id": "#root/singleUse",
+      "title": "Singleuse",
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

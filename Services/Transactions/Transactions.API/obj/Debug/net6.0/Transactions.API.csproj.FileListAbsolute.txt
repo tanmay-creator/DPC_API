@@ -1,0 +1,562 @@
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.AssemblyReference.cache
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfoInputs.cache
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfo.cs
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CoreCompileInputs.cache
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.json
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.exe
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.deps.json
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.runtimeconfig.json
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.pdb
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.Transactions.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Transactions.API.props
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Transactions.API.props
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Transactions.API.props
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\scopedcss\bundle\Transactions.API.styles.css
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CopyComplete
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\refint\Transactions.API.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.pdb
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.genruntimeconfig.cache
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\ref\Transactions.API.dll
+C:\Metlife\Team Application\Tanmay\New Architecture\DPC_API (4)\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.AssemblyReference.cache
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfoInputs.cache
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfo.cs
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CoreCompileInputs.cache
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.json
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.exe
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.deps.json
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.runtimeconfig.json
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.pdb
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.Transactions.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\scopedcss\bundle\Transactions.API.styles.css
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CopyComplete
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\refint\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.pdb
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.genruntimeconfig.cache
+C:\Oracle_DPC_Git\DPC_API_v3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\ref\Transactions.API.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.json
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.exe
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.deps.json
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.runtimeconfig.json
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.pdb
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.AssemblyReference.cache
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfoInputs.cache
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfo.cs
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CoreCompileInputs.cache
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.Transactions.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Transactions.API.props
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Transactions.API.props
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Transactions.API.props
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\scopedcss\bundle\Transactions.API.styles.css
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CopyComplete
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\refint\Transactions.API.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.pdb
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.genruntimeconfig.cache
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\ref\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.exe
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.deps.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.runtimeconfig.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.pdb
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.AssemblyReference.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfoInputs.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfo.cs
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CoreCompileInputs.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.Transactions.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\scopedcss\bundle\Transactions.API.styles.css
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CopyComplete
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\refint\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.pdb
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.genruntimeconfig.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\ref\Transactions.API.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.json
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.exe
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.deps.json
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.runtimeconfig.json
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.pdb
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.AssemblyReference.cache
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfoInputs.cache
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfo.cs
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CoreCompileInputs.cache
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.Transactions.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Transactions.API.props
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Transactions.API.props
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Transactions.API.props
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\scopedcss\bundle\Transactions.API.styles.css
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CopyComplete
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\refint\Transactions.API.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.pdb
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.genruntimeconfig.cache
+C:\Projects\NewArch\DPC_API_20Oct23\Services\Transactions\Transactions.API\obj\Debug\net6.0\ref\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.exe
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.deps.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.runtimeconfig.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.pdb
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.AssemblyReference.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfoInputs.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfo.cs
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CoreCompileInputs.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.Transactions.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\scopedcss\bundle\Transactions.API.styles.css
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CopyComplete
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\refint\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.pdb
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.genruntimeconfig.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\ref\Transactions.API.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.json
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.exe
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.deps.json
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.runtimeconfig.json
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.pdb
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.AssemblyReference.cache
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfoInputs.cache
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfo.cs
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CoreCompileInputs.cache
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.Transactions.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Transactions.API.props
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Transactions.API.props
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Transactions.API.props
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\scopedcss\bundle\Transactions.API.styles.css
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CopyComplete
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\refint\Transactions.API.dll
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.pdb
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.genruntimeconfig.cache
+C:\Metlife\Metlife DPC Application\DPC_API_Headers_FA_Transaction22Oct2023\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\ref\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.json
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.exe
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.deps.json
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.runtimeconfig.json
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.pdb
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.AssemblyReference.cache
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfoInputs.cache
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfo.cs
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CoreCompileInputs.cache
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.Transactions.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\scopedcss\bundle\Transactions.API.styles.css
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CopyComplete
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\refint\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.pdb
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.genruntimeconfig.cache
+C:\Oracle_DPC_Git\DPC_API_v5\DPC_API_Headers_FA_Transaction (1)\DPC_API_Headers_FA_Transaction\Services\Transactions\Transactions.API\obj\Debug\net6.0\ref\Transactions.API.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.json
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.exe
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.deps.json
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.runtimeconfig.json
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.pdb
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.AssemblyReference.cache
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfoInputs.cache
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfo.cs
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CoreCompileInputs.cache
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.Transactions.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Transactions.API.props
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Transactions.API.props
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Transactions.API.props
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\scopedcss\bundle\Transactions.API.styles.css
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CopyComplete
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\refint\Transactions.API.dll
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.pdb
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.genruntimeconfig.cache
+C:\Metlife\Metlife DPC Application\DEMO 23 Oct\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\ref\Transactions.API.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.json
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.exe
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.deps.json
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.runtimeconfig.json
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.pdb
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.AssemblyReference.cache
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfoInputs.cache
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfo.cs
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CoreCompileInputs.cache
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.Transactions.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Transactions.API.props
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Transactions.API.props
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Transactions.API.props
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\scopedcss\bundle\Transactions.API.styles.css
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CopyComplete
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\refint\Transactions.API.dll
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.pdb
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.genruntimeconfig.cache
+C:\Users\temore\Documents\PROJECT\WORK\MAIN\Demo3\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\ref\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\appsettings.json
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.exe
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.deps.json
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.runtimeconfig.json
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Transactions.API.pdb
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Data.AppConfiguration.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Identity.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Messaging.EventGrid.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.AssemblyReference.cache
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfoInputs.cache
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.AssemblyInfo.cs
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CoreCompileInputs.cache
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.Transactions.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Transactions.API.props
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\scopedcss\bundle\Transactions.API.styles.css
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.csproj.CopyComplete
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\refint\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.pdb
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\Transactions.API.genruntimeconfig.cache
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\obj\Debug\net6.0\ref\Transactions.API.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Serilog.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\Transactions\Transactions.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

@@ -1,0 +1,151 @@
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\appsettings.json
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.exe
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.deps.json
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.runtimeconfig.json
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.pdb
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.csproj.AssemblyReference.cache
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.AssemblyInfoInputs.cache
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.AssemblyInfo.cs
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.csproj.CoreCompileInputs.cache
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.VendorSelect.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.build.VendorSelect.API.props
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.VendorSelect.API.props
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.VendorSelect.API.props
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\scopedcss\bundle\VendorSelect.API.styles.css
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.csproj.CopyComplete
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\refint\VendorSelect.API.dll
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.pdb
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.genruntimeconfig.cache
+C:\Users\Samruddhi Borate\Downloads\DPC_API_Sonal'sNewArch\DPC_API_FA+Transact+UP+UpdateComPref\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\ref\VendorSelect.API.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\appsettings.json
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.exe
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.deps.json
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.runtimeconfig.json
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.pdb
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.csproj.AssemblyReference.cache
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.AssemblyInfoInputs.cache
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.AssemblyInfo.cs
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.csproj.CoreCompileInputs.cache
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.VendorSelect.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.build.VendorSelect.API.props
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.VendorSelect.API.props
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.VendorSelect.API.props
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\scopedcss\bundle\VendorSelect.API.styles.css
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.csproj.CopyComplete
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\refint\VendorSelect.API.dll
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.pdb
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.genruntimeconfig.cache
+C:\Projects\NewArch\DPC_API_20Oct23\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\ref\VendorSelect.API.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\appsettings.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.exe
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.deps.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.runtimeconfig.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.pdb
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.csproj.AssemblyReference.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.AssemblyInfoInputs.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.AssemblyInfo.cs
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.csproj.CoreCompileInputs.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.VendorSelect.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.build.VendorSelect.API.props
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.VendorSelect.API.props
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.VendorSelect.API.props
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\scopedcss\bundle\VendorSelect.API.styles.css
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.csproj.CopyComplete
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\refint\VendorSelect.API.dll
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.pdb
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.genruntimeconfig.cache
+C:\Oracle_DPC_Git\DPC_API_v4\DPC_API_Headers_FA_Transaction\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\ref\VendorSelect.API.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\appsettings.json
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.exe
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.deps.json
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.runtimeconfig.json
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\VendorSelect.API.pdb
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Serilog.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.csproj.AssemblyReference.cache
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.AssemblyInfoInputs.cache
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.AssemblyInfo.cs
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.csproj.CoreCompileInputs.cache
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.VendorSelect.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.build.VendorSelect.API.props
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.VendorSelect.API.props
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.VendorSelect.API.props
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\scopedcss\bundle\VendorSelect.API.styles.css
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.csproj.CopyComplete
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\refint\VendorSelect.API.dll
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.pdb
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\VendorSelect.API.genruntimeconfig.cache
+C:\Oracle_DPC_Git\DPC_API_v6\DPC_API\Services\VendorSelect\VendorSelect.API\obj\Debug\net6.0\ref\VendorSelect.API.dll

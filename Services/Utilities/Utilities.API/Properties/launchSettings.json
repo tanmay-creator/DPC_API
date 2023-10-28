@@ -1,0 +1,53 @@
+{
+  "profiles": {
+    "Utilities.API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AZURE_CLIENT_ID": "12e3fca8-695e-4e27-a2df-93f7869ff1c9",
+        "AZURE_TENANT_ID": "b4feb9b5-d957-4fbc-ae8c-781121f3fe1e",
+        "AZURE_CLIENT_SECRET": "oqJ8Q~9JlmcFKB-nM8x7UKPHHH0wWRaOBDunkdlu",
+        "KEY_VAULT_URL": "https://dpcrefapp-keyvault.vault.azure.net/",
+        "APP_CONFIGURATION_URL": "https://dpcrefapp-appconfiguration.azconfig.io"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7205;http://localhost:5075"
+    },
+    "RedisService.API": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7056;http://localhost:5273",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:24033",
+      "sslPort": 44388
+    }
+  }
+}

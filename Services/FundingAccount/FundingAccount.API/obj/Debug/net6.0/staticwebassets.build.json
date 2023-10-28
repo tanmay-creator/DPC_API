@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ssWG/PzwZ+KVZcZaXPzChS36EendVMnuOcYM7kqQm0U=",
+  "Source": "FundingAccount.API",
+  "BasePath": "_content/FundingAccount.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

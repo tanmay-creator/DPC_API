@@ -1,0 +1,41 @@
+{
+  "profiles": {
+    "FundingAccount.API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AZURE_CLIENT_ID": "12e3fca8-695e-4e27-a2df-93f7869ff1c9",
+        "AZURE_TENANT_ID": "b4feb9b5-d957-4fbc-ae8c-781121f3fe1e",
+        "AZURE_CLIENT_SECRET": "oqJ8Q~9JlmcFKB-nM8x7UKPHHH0wWRaOBDunkdlu"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7042;http://localhost:5212"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:47879",
+      "sslPort": 44321
+    }
+  }
+}

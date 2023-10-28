@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "Unregistered_ACH": {
+      "$ref": "FundingAccount/FundingAccount_UnregACH_RequestSchema.json"
+    },
+    "Unregistered_Card": {
+      "$ref": "FundingAccount/FundingAccount_UnregCard_RequestSchema.json"
+    },
+    "Registered_ACH": {
+      "$ref": "FundingAccount/FundingAccount_RegACH_RequestSchema.json"
+    },
+    "Registered_Card": {
+      "$ref": "FundingAccount/FundingAccount_RegCard_RequestSchema.json"
+    }
+  },
+
+  "oneOf": [
+    { "required": [ "Unregistered_Card" ] },
+    { "required": [ "Unregistered_ACH" ] },
+    { "required": [ "Registered_Card" ] },
+    { "required": [ "Registered_ACH" ] }
+  ]
+
+}
+

@@ -1,0 +1,158 @@
+{
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "owner",
+    "kind",
+    "cardHolderName",
+    "cardNumber",
+    "expirationDate"
+    //"securityCode",
+    //"billingAddress",
+    //"singleUse"
+    //name
+  ],
+  "properties": {
+    "owner": {
+      "$id": "#root/owner",
+      "title": "Owner",
+      "type": "object",
+      "required": [
+        "kind",
+        "billerId",
+        "billerAccountId"
+      ],
+      "properties": {
+        "kind": {
+          "$id": "#root/owner/kind",
+          "title": "Kind",
+          "type": "string",
+          "minLength": 1,
+          "enum": [ "BillerAccountOwner" ],
+          "pattern": "^.*$"
+        },
+        "billerId": {
+          "$id": "#root/owner/billerId",
+          "title": "Billerid",
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^.*$"
+        },
+        "billerAccountId": {
+          "$id": "#root/owner/billerAccountId",
+          "title": "Billeraccountid",
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^.*$"
+        }
+      }
+    },
+    "kind": {
+      "$id": "#root/kind",
+      "title": "Kind",
+      "type": "string",
+      "minLength": 1,
+      "enum": [ "Card" ],
+      "pattern": "^.*$"
+    },
+    "cardHolderName": {
+      "$id": "#root/cardHolderName",
+      "title": "Cardholdername",
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^.*$"
+    },
+    "name": {
+      "$id": "#root/name",
+      "title": "Name",
+      "type": "string",
+      "pattern": "^.*$"
+    },
+    "cardNumber": {
+      "$id": "#root/cardNumber",
+      "title": "Cardnumber",
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^.*$"
+    },
+    "expirationDate": {
+      "$id": "#root/expirationDate",
+      "title": "Expirationdate",
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^.*$"
+    },
+    "securityCode": {
+      "$id": "#root/securityCode",
+      "title": "Securitycode",
+      "type": "string",
+      "pattern": "^.*$"
+    },
+    "paymentMethodKind": {
+      "$id": "#root/paymentMethodKind",
+      "title": "Paymentmethodkind",
+      "type": "string",
+      "enum": [ "CreditCard", "DebitCard" ],
+      "pattern": "^.*$"
+    },
+    "billingAddress": {
+      "$id": "#root/billingAddress",
+      "title": "Billingaddress",
+      "type": "object",
+      "required": [
+        //"lines",
+        //"city",
+        "regionCode",
+        "postalCode",
+        "countryCode"
+      ],
+      "properties": {
+        "lines": {
+          "$id": "#root/billingAddress/lines",
+          "title": "Lines",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/billingAddress/lines/items",
+            "title": "Items",
+            "type": "string",
+            "pattern": "^.*$"
+          }
+        },
+        "city": {
+          "$id": "#root/billingAddress/city",
+          "title": "City",
+          "type": "string",
+          "pattern": "^.*$"
+        },
+        "regionCode": {
+          "$id": "#root/billingAddress/regionCode",
+          "title": "Regioncode",
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^.*$"
+        },
+        "postalCode": {
+          "$id": "#root/billingAddress/postalCode",
+          "title": "Postalcode",
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^.*$"
+        },
+        "countryCode": {
+          "$id": "#root/billingAddress/countryCode",
+          "title": "Countrycode",
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^.*$"
+        }
+      }
+    },
+    "singleUse": {
+      "$id": "#root/singleUse",
+      "title": "Singleuse",
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

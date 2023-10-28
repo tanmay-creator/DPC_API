@@ -1,0 +1,142 @@
+{
+	"title": "Root", 
+	"type": "object",
+	"required": [
+		//"firstName",
+		//"middleName",
+		//"lastName",
+		//"nameSuffix",
+		//"emailAddress",
+		//"defaultFundingAccountId",
+		//"homeAddress",
+		//"phoneNumbers"
+	],
+	"properties": {
+		"firstName": {
+			"$id": "#root/firstName", 
+			"title": "Firstname", 
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"middleName": {
+			"$id": "#root/middleName", 
+			"title": "Middlename", 
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"lastName": {
+			"$id": "#root/lastName", 
+			"title": "Lastname", 
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"nameSuffix": {
+			"$id": "#root/nameSuffix", 
+			"title": "Namesuffix", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"Mr."
+			],
+			"pattern": "^.*$"
+		},
+		"emailAddress": {
+			"$id": "#root/emailAddress", 
+			"title": "Emailaddress", 
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"defaultFundingAccountId": {
+			"$id": "#root/defaultFundingAccountId", 
+			"title": "Defaultfundingaccountid", 
+			"type": "string",
+			"pattern": "^.*$"
+		},
+		"homeAddress": {
+			"$id": "#root/homeAddress", 
+			"title": "Homeaddress", 
+			"type": "object",
+			"required": [
+				//"lines",
+				//"city",
+				"postalCode",
+				"regionCode",
+				"countryCode"
+			],
+			"properties": {
+				"lines": {
+					"$id": "#root/homeAddress/lines", 
+					"title": "Lines", 
+					"type": "array",
+					"default": [],
+					"items":{
+						"$id": "#root/homeAddress/lines/items", 
+						"title": "Items", 
+						"type": "string",
+						"pattern": "^.*$"
+					}
+				},
+				"city": {
+					"$id": "#root/homeAddress/city", 
+					"title": "City", 
+					"type": "string",
+					"pattern": "^.*$"
+				},
+				"postalCode": {
+					"$id": "#root/homeAddress/postalCode",
+					"title": "Postalcode",
+					"type": "string",
+					"minLength": 1,
+					"pattern": "^.*$"
+				},
+				"regionCode": {
+					"$id": "#root/homeAddress/regionCode",
+					"title": "Regioncode",
+					"type": "string",
+					"minLength": 1,
+					"pattern": "^.*$"
+				},
+				"countryCode": {
+					"$id": "#root/homeAddress/countryCode",
+					"title": "Countrycode",
+					"type": "string",
+					"minLength": 1,
+					"pattern": "^.*$"
+				}
+			}
+		}
+,
+		"phoneNumbers": {
+			"$id": "#root/phoneNumbers", 
+			"title": "Phonenumbers", 
+			"type": "array",
+			"items":{
+				"$id": "#root/phoneNumbers/items", 
+				"title": "Items", 
+				"type": "object",
+				"required": [
+					"kind",
+					"number"
+				],
+				"properties": {
+					"kind": {
+						"$id": "#root/phoneNumbers/items/kind",
+						"title": "Kind",
+						"type": "string",
+						"minLength": 1,
+						"enum": [ "Mobile", "Home" ],
+						"pattern": "^.*$"
+					},
+					"number": {
+						"$id": "#root/phoneNumbers/items/number",
+						"title": "Number",
+						"type": "string",
+						"minLength": 1,
+						"pattern": "^.*$"
+					}
+				}
+			}
+
+		}
+	}
+}

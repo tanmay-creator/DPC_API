@@ -1,0 +1,146 @@
+{
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "owner",
+    "kind",
+    //"Name",
+    "paymentMethodKind",
+    "brandKind",
+    "aba",
+    "dda",
+    "accountHolderName",
+    //"billingAddress",
+    //"singleUse"
+  ],
+  "properties": {
+    "owner": {
+      "$id": "#root/owner",
+      "title": "Owner",
+      "type": "object",
+      "required": [
+        "kind",
+        "billerId",
+        "billerAccountId"
+      ],
+      "properties": {
+        "kind": {
+          "$id": "#root/owner/kind",
+          "title": "Kind",
+          "type": "string",
+          "pattern": "^.*$"
+        },
+        "billerId": {
+          "$id": "#root/owner/billerId",
+          "title": "Billerid",
+          "type": "string",
+          "pattern": "^.*$"
+        },
+        "billerAccountId": {
+          "$id": "#root/owner/billerAccountId",
+          "title": "Billeraccountid",
+          "type": "string",
+          "pattern": "^.*$"
+        }
+      }
+    },
+    "kind": {
+      "$id": "#root/kind",
+      "title": "Kind",
+      "type": "string",
+      "pattern": "^.*$"
+    },
+    "Name": {
+      "$id": "#root/Name",
+      "title": "Name",
+      "type": "string",
+      "pattern": "^.*$"
+    },
+    "paymentMethodKind": {
+      "$id": "#root/paymentMethodKind",
+      "title": "Paymentmethodkind",
+      "type": "string",
+      "pattern": "^.*$"
+    },
+    "brandKind": {
+      "$id": "#root/brandKind",
+      "title": "Brandkind",
+      "type": "string",
+      "pattern": "^.*$"
+    },
+    "aba": {
+      "$id": "#root/aba",
+      "title": "Aba",
+      "type": "string",
+      "pattern": "^.*$"
+    },
+    "dda": {
+      "$id": "#root/dda",
+      "title": "Dda",
+      "type": "string",
+      "pattern": "^.*$"
+    },
+    "accountHolderName": {
+      "$id": "#root/accountHolderName",
+      "title": "Accountholdername",
+      "type": "string",
+      "pattern": "^.*$"
+    },
+    "billingAddress": {
+      "$id": "#root/billingAddress",
+      "title": "Billingaddress",
+      "type": "object",
+      "required": [
+        "lines",
+        "city",
+        "regionCode",
+        "postalCode",
+        "countryCode"
+      ],
+      "properties": {
+        "lines": {
+          "$id": "#root/billingAddress/lines",
+          "title": "Lines",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$id": "#root/billingAddress/lines/items",
+            "title": "Items",
+            "type": "string",
+            "pattern": "^.*$"
+          }
+        },
+        "city": {
+          "$id": "#root/billingAddress/city",
+          "title": "City",
+          "type": "string",
+          "pattern": "^.*$"
+        },
+        "regionCode": {
+          "$id": "#root/billingAddress/regionCode",
+          "title": "Regioncode",
+          "type": "string",
+          "pattern": "^.*$"
+        },
+        "postalCode": {
+          "$id": "#root/billingAddress/postalCode",
+          "title": "Postalcode",
+          "type": "string",
+          "pattern": "^.*$"
+        },
+        "countryCode": {
+          "$id": "#root/billingAddress/countryCode",
+          "title": "Countrycode",
+          "type": "string",
+          "pattern": "^.*$"
+        }
+      }
+    },
+    "singleUse": {
+      "$id": "#root/singleUse",
+      "title": "Singleuse",
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
