@@ -17,6 +17,7 @@ namespace VendorConnect.API.Application.Services
 
             public static string CreateFundingAccount(string baseUri) => $"{baseUri}/fundingaccounts";
             public static string GetAllFundingAccountUrl(string baseUri,string profileId) => $"{baseUri}/profiles/{profileId}/fundingaccounts";
+            public static string GetFundingAccountUrl(string baseUri, string profileId, string fundingAccountId) => $"{baseUri}/profiles/{profileId}/fundingaccounts/{fundingAccountId}";
 
             // Delete unregistered funding account
             public static string DeleteUnregFundingAccount(string baseUri, string billerId, string billerAccountId, string fundingAccountId) => $"{baseUri}/billeraccounts/{billerId}/{billerAccountId}/fundingaccounts/{fundingAccountId}";

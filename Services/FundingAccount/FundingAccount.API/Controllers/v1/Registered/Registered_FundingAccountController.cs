@@ -1,10 +1,7 @@
-﻿using FundingAccount.API.Application.ModelDTOs.v1.FundingAccount.Request;
-using FundingAccount.API.Application.ModelDTOs.v1.FundingAccount.Response.Registered;
+﻿using FundingAccount.API.Application.ModelDTOs.v1.FundingAccount.Response.Registered;
 using FundingAccount.API.Domain.Entities;
 using FundingAccount.API.Domain.Exceptions;
-using FundingAccount.API.FundingAccount_Schema.Model.ValidationErrorModels;
 using FundingAccount.API.Utility.ReadRequest;
-using System.Reflection.Metadata;
 
 namespace FundingAccount.API.Controllers.v1.Registered
 {
@@ -50,10 +47,117 @@ namespace FundingAccount.API.Controllers.v1.Registered
             _appSettings = appSettings.Value;
 
         }
+        #region GetFundingAccount
+
+        [HttpGet]
+        [Route("/v{version:apiVersion}/registered/{profile-id}/funding-account/{fundingAccount-id}")]
+        public async Task<IActionResult> GetFundingAccount([FromRoute(Name = "profile-id")] string profileId, [FromRoute(Name = "fundingAccount-id")] string fundingAccountId)
+        {
+            var vendorCode = Request.Headers["Vendor-Code"];
+            var lobCode = Request.Headers["Lob-Code"];
+            try
+            {
+                _logger.LogInformation("\nFunding Controller: Get Funding Account Method called for this profile id and funding account\n");
+                _fundingAccServiceResponse = await _fundingAccountService.GetFundingAccount(profileId, fundingAccountId, vendorCode, lobCode);
+
+                if (_fundingAccServiceResponse.StatusCode == HttpStatusCode.OK)
+                {
+                    _fundingAccServiceResponseContent = await _fundingAccServiceResponse.Content.ReadAsStringAsync();
+
+                    if (_fundingAccServiceResponseContent == null)
+                    {
+                        throw new NoContentException(vendorCode, lobCode);
+                    }
+                    JObject getFAJsonBody = JObject.Parse(_fundingAccServiceResponseContent);
+                    _logger.LogInformation("\nFunding Controller: Response Fetched Successfull. Now will proceed for the response validation.\n");
+
+                    bool kindExist = getFAJsonBody.SelectTokens("kind").Any();
+                    if (!kindExist)
+                    {
+                        throw new NotAcceptableException(vendorCode, lobCode);
+                    }
+                    string responseKind = getFAJsonBody.SelectToken("kind").ToString();
+                    responseKind = responseKind.ToLower();
+                    if (responseKind.Equals("ach"))
+                    {
+
+
+                        _fundingAccResValidation = await _utilityService.ValidateRequestResponse(_fundingAccServiceResponseContent, _fundingAccRegACH_ResSchemaName, vendorCode, lobCode);
+                        _fundingAccResValidationContent = await _fundingAccResValidation.Content.ReadAsStringAsync();
+                        if (_fundingAccResValidation.StatusCode == HttpStatusCode.OK)
+                        {
+                            _logger.LogInformation("\nFunding Controller: Ach Response Validation Successfull for this funding account and user profile.\n");
+                            Reg_GetFA_Ach_Response_DTO reg_GetFA_Ach_Response_DTO = JsonConvert.DeserializeObject<Reg_GetFA_Ach_Response_DTO>(_fundingAccServiceResponseContent);
+                            return new ObjectResult(reg_GetFA_Ach_Response_DTO);
+                        }
+                        else
+                        {
+                            _logger.LogInformation("\nFunding Controller: Response Validation UnSuccessfull for this funding account and user profile\n");
+                            DPCErrorModel errors = JsonConvert.DeserializeObject<DPCErrorModel>(_fundingAccResValidationContent);
+                            return StatusCode(422, errors);
+                        }
+                    }
+                    else if (responseKind.Equals("card"))
+                    {
+
+                        _fundingAccResValidation = await _utilityService.ValidateRequestResponse(_fundingAccServiceResponseContent, _fundingAccRegCard_ResSchemaName, vendorCode, lobCode);
+                        _fundingAccResValidationContent = await _fundingAccResValidation.Content.ReadAsStringAsync();
+                        if (_fundingAccResValidation.StatusCode == HttpStatusCode.OK)
+                        {
+                            _logger.LogInformation("\nVendorConnect Controller: Card Response Validation Successfull for this funding account and user profile\n");
+                            Reg_GetFA_Card_Response_DTO reg_GetFA_Card_Response_DTO = JsonConvert.DeserializeObject<Reg_GetFA_Card_Response_DTO>(_fundingAccServiceResponseContent);
+                            return new ObjectResult(reg_GetFA_Card_Response_DTO);
+                        }
+                        else
+                        {
+                            _logger.LogInformation("\nPayment Controller Registered: Card Response Validation Unsuccessfull for this funding account and user profile\n");
+                            DPCErrorModel errors = JsonConvert.DeserializeObject<DPCErrorModel>(_fundingAccResValidationContent);
+                            return StatusCode(422, errors);
+                        }
+                    }
+                    else
+                    {
+                        throw new NotAcceptableException(vendorCode, lobCode);
+                    }
+
+                }
+                else if (_fundingAccServiceResponse.StatusCode == HttpStatusCode.UnprocessableEntity)
+                {
+                    _fundingAccServiceResponseContent = await _fundingAccServiceResponse.Content.ReadAsStringAsync();
+
+
+                    DPCErrorModel errorDetails = JsonConvert.DeserializeObject<DPCErrorModel>(_fundingAccServiceResponseContent);
+                    var formatedRes = new ObjectResult(errorDetails);
+                    formatedRes.StatusCode = errorDetails.error.status;
+                    return formatedRes;
+                }
+                else
+                {
+                    throw new BadRequestException(vendorCode, lobCode);
+
+                }
+
+            }
+            catch (HttpRequestException ex)
+            {
+                throw new ServiceNotAvailableException(vendorCode, lobCode);
+            }
+            catch (JsonReaderException ex)
+            {
+                throw new BadRequestException(vendorCode, lobCode);
+            }
+            catch (Exception e)
+            {
+                throw new BadRequestException(vendorCode, lobCode);
+            }
+        }
+
+
+        #endregion
 
         #region GetAllFundingAccount
         [HttpGet]
-        [Route("/v{version:apiVersion}/registered/{profile-id}/funding-accounts")]
+        [Route("/v{version:apiVersion}/registered/{profile-id}/funding-account")]
         public async Task<IActionResult> GetAllFundingAccount([FromRoute(Name = "profile-id")] string profileId)
         {
             _vendorCode = Request.Headers["Vendor-Code"];

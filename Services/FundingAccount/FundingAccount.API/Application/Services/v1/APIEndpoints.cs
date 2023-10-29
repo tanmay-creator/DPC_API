@@ -10,6 +10,7 @@
         public static string CreateRegCardFundingAccountVendorConnect(string baseUri) => $"{baseUri}/api/v1/registered/cardfundingaccount";
         public static string CreateRegACHFundingAccountVendorConnect(string baseUri) => $"{baseUri}/api/v1/registered/achfundingaccount";
         public static string GetAllFundingAccountVendorConnect(string baseUri,string profileId) => $"{baseUri}/api/v1/registered/{profileId}/fundingaccount";
+        public static string GetFundingAccountVendorConnect(string baseUri,string profileId,string fundingAccountId) => $"{baseUri}/api/v1/registered/{profileId}/fundingaccount/{fundingAccountId}";
         public static string DeleteUnregFundingAccountVendorConnect(string baseUri, string billerId, string billerAccountId, string fundingAccountId) => $"{baseUri}/{billerId}/{billerAccountId}/DeleteUnregFundingAccount/{fundingAccountId}";
         public static string DeleteRegFundingAccountVendorConnect(string baseUri, string profileId, string fundingAccountId) => $"{baseUri}/{profileId}/DeleteRegFundingAccount/{fundingAccountId}";
 

@@ -19,6 +19,8 @@ namespace VendorConnect.API.Services
         private readonly string _userProfileUrl;
         private readonly string _aciPaymentUrl;
         private readonly DPCCircuitBreakerPolicy _dpcCircuitBreakerPolicy;
+        private  HttpResponseMessage aciResponse;
+        private  string aciResponseContent;
         private AppSettings _appSettings { get; }
         private string _accessToken;
 
@@ -209,13 +211,13 @@ namespace VendorConnect.API.Services
         public async Task<HttpResponseMessage> GetAllFundingAccount(string profileId, string vendorConnect, string lobCode)
         {
             var uri = FundingAccountEndpoint.GetAllFundingAccountUrl(_fundingAccountUrl, profileId);
-            _logger.LogDebug("[VendorConnect Service] -> Calling {Uri} to fetch the funding accounts", uri);
+            _logger.LogDebug("[VendorConnect Service] -> Calling {Uri} to fetch all funding accounts", uri);
 
             //Fetch Access Token from ACI
             string ACCESSTOKEN = await GetAccessToken();
             if (!string.IsNullOrEmpty(ACCESSTOKEN))
             {
-                HttpResponseMessage aciResponse = null;
+               
 
                 _logger.LogInformation("VendorConnectService:: Fetching user profile for the profileId: ");
                 //var json = JsonConvert.SerializeObject(profileId);
@@ -224,7 +226,35 @@ namespace VendorConnect.API.Services
                 _apiClient.DefaultRequestHeaders.Add("X-Auth-Key", _xAuthKey);
                 _apiClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer" + ACCESSTOKEN);
                 aciResponse = await _dpcCircuitBreakerPolicy.combinedPolicy.ExecuteAsync(() => _apiClient.GetAsync(uri));
-                string aciResponseContent = await aciResponse.Content.ReadAsStringAsync();
+                aciResponseContent = await aciResponse.Content.ReadAsStringAsync();
+                return aciResponse;
+
+            }
+            HttpResponseMessage errResponse = new HttpResponseMessage();
+            errResponse.StatusCode = HttpStatusCode.NotFound;
+            errResponse.Content = new StringContent("Access token is null");
+            return errResponse;
+        }
+
+        public async Task<HttpResponseMessage> GetFundingAccount(string profileId, string fundingAccountId, string vendorConnect, string lobCode)
+        {
+            var uri = FundingAccountEndpoint.GetFundingAccountUrl(_fundingAccountUrl, profileId, fundingAccountId);
+            _logger.LogDebug("[VendorConnect Service] -> Calling {Uri} to fetch the funding account", uri);
+
+            //Fetch Access Token from ACI
+            string ACCESSTOKEN = await GetAccessToken();
+            if (!string.IsNullOrEmpty(ACCESSTOKEN))
+            {
+                
+
+                _logger.LogInformation("VendorConnectService:: Fetching user profile for the profileId: ");
+                //var json = JsonConvert.SerializeObject(profileId);
+                //var content = new StringContent(json, UTF8Encoding.UTF8, "application/json");
+                _apiClient.DefaultRequestHeaders.Clear();
+                _apiClient.DefaultRequestHeaders.Add("X-Auth-Key", _xAuthKey);
+                _apiClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer" + ACCESSTOKEN);
+                aciResponse = await _dpcCircuitBreakerPolicy.combinedPolicy.ExecuteAsync(() => _apiClient.GetAsync(uri));
+                aciResponseContent = await aciResponse.Content.ReadAsStringAsync();
                 return aciResponse;
 
             }

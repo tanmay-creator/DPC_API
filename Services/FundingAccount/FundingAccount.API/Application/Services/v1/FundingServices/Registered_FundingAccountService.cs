@@ -49,6 +49,28 @@ internal sealed class Registered_FundingAccountService : IRegisteredFundingAccou
     }
     #endregion
 
+    #region Get Funding Account
+
+    public async Task<HttpResponseMessage> GetFundingAccount(string profileId,string fundingAccountId, string vendorCode, string lobCode)
+    {
+        var vendorConnectGetFAUrl = APIEndpoints.GetFundingAccountVendorConnect(_vendorConnectBaseUrl, profileId,fundingAccountId);
+
+        if (vendorConnectGetFAUrl == null)
+        {
+            throw new BadRequestException(vendorCode, lobCode);
+        }
+
+        // Adding headers
+        _apiClient.DefaultRequestHeaders.Clear();
+        _apiClient.DefaultRequestHeaders.Add("Vendor-Code", vendorCode);
+        _apiClient.DefaultRequestHeaders.Add("Lob-Code", lobCode);
+        _vendorConnectResponse = await _apiClient.GetAsync(vendorConnectGetFAUrl);
+        return _vendorConnectResponse;
+
+    }
+
+    #endregion
+
     #region Create Funding Account
 
     public async Task<HttpResponseMessage> RegisteredCardFundingAccount<T>(Reg_FA_Card_Request_DTO fundingaccountDetails, string vendorCode, string lobCode)

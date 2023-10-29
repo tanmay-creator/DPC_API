@@ -11,6 +11,7 @@ namespace FundingAccount.API.Services.v1.Services.Abstraction
       
         Task<HttpResponseMessage> DeleteFundingAccount_RegisteredUser<T>(string profileId, string fundingAccountId, string vendorCode, string lobCode);
         Task<HttpResponseMessage> GetAllFundingAccount(string profileId, string vendorCode, string lobCode);
+        Task<HttpResponseMessage> GetFundingAccount(string profileId, string fundingAccountId, string vendorCode, string lobCode);
 
 
     }

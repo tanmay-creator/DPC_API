@@ -16,6 +16,7 @@ namespace VendorConnect.API.Application.Services.Services.Abstraction
         Task<HttpResponseMessage> RegisteredCardFundingAccount(Reg_FA_Card_Request_DTO fundingaccountDetails);
         Task<HttpResponseMessage> RegisteredACHFundingAccount(Reg_FA_ACH_Request_DTO fundingaccountDetails);
         Task<HttpResponseMessage> GetAllFundingAccount(string profileId, string vendorConnect, string lobCode);
+        Task<HttpResponseMessage> GetFundingAccount(string profileId, string fundingAccountId, string vendorConnect, string lobCode);
 
         // Payment FLow
         Task<HttpResponseMessage> RegisteredPayment(Reg_Payment_Request_DTO paymentDetails);

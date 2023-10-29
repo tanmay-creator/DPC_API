@@ -13,8 +13,7 @@ namespace Utilities.API
         public double CountryListRedisTimeout { get; set; }
         public double StateListRedisTimeout { get; set; }
         public double CityListRedisTimeout { get; set; }
-        LOBSchemaName_Met_Sfd = "CTDPC_SFD";
-            label: met_sfd
+       
         
 
 

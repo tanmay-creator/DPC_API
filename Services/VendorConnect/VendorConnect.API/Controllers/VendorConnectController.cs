@@ -69,6 +69,8 @@ namespace VendorConnect.API.Controllers
         public string AciResponseContent;
         public ObjectResult ErrorResponse;
         public RootError ValidationErrors;
+        public readonly string GetAchFAResponseSchema = "FundingAccount/FundingAccount_RegACH_ResponseSchema.json";
+        public readonly string GetCardFAResponseSchema = "FundingAccount/FundingAccount_RegCard_ResponseSchema.json";
 
         public VendorConnectController(IVendorConnectService vendorConnectService, ILogger<VendorConnectController> logger, IUtilityService utilityService)
         {
@@ -141,7 +143,114 @@ namespace VendorConnect.API.Controllers
                 throw new BadRequestException(vendorCode, lobCode);
             }
         }
-        
+
+        [HttpGet]
+        [Route("api/v{version:apiVersion}/registered/{profile-id}/fundingaccount/{fundingAccount-id}")]
+        public async Task<IActionResult> GetFundingAccount([FromRoute(Name = "profile-id")] string profileId, [FromRoute(Name = "fundingAccount-id")] string fundingAccountId)
+        {
+            var vendorCode = Request.Headers["Vendor-Code"];
+            var lobCode = Request.Headers["Lob-Code"];
+            try
+            {
+                _logger.LogInformation("\nVendorConnect Controller: Get Funding Account Method called for REGISTERED USER.\n");
+                AciResponse = await _vendorConnectService.GetFundingAccount(profileId, fundingAccountId, vendorCode, lobCode);
+
+                if (AciResponse.StatusCode == HttpStatusCode.OK)
+                {
+                    AciResponseContent = await AciResponse.Content.ReadAsStringAsync();
+
+                    if (AciResponseContent == null)
+                    {
+                        throw new NoContentException(vendorCode, lobCode);
+                    }
+                    JObject getFAJsonBody = JObject.Parse(AciResponseContent);
+                    _logger.LogInformation("\nVendorConnect Controller: Response Fetched Successfull. Now will proceed for the response validation.\n");
+
+                    bool kindExist = getFAJsonBody.SelectTokens("kind").Any();
+                    if (!kindExist)
+                    {
+                        throw new NotAcceptableException(vendorCode, lobCode);
+                    }
+                    string responseKind = getFAJsonBody.SelectToken("kind").ToString();
+                    responseKind = responseKind.ToLower();
+                    if (responseKind.Equals("ach"))
+                    {
+
+
+                        ResponseValidation = await _utilityService.ValidateRequestResponse(AciResponseContent, GetAchFAResponseSchema, vendorCode, lobCode);
+                        ResponseValidationContent = await ResponseValidation.Content.ReadAsStringAsync();
+                        if (ResponseValidation.StatusCode == HttpStatusCode.OK)
+                        {
+                            _logger.LogInformation("\nVendorConnect Controller: Ach Response Validation Successfull for this funding account and user profile.\n");
+                            Reg_GetFA_Ach_Response_DTO responseAchDto = JsonConvert.DeserializeObject<Reg_GetFA_Ach_Response_DTO>(AciResponseContent);
+                            return new ObjectResult(responseAchDto);
+                        }
+                        else
+                        {
+                            _logger.LogInformation("\nVendorConnect Controller: Response Validation UnSuccessfull for this funding account and user profile\n");
+                            DPCErrorModel errors = JsonConvert.DeserializeObject<DPCErrorModel>(ResponseValidationContent);
+                            return StatusCode(422, errors);
+                        }
+                    }
+                    else if (responseKind.Equals("card"))
+                    {
+
+                        ResponseValidation = await _utilityService.ValidateRequestResponse(AciResponseContent, GetCardFAResponseSchema, vendorCode, lobCode);
+                        ResponseValidationContent = await ResponseValidation.Content.ReadAsStringAsync();
+                        if (ResponseValidation.StatusCode == HttpStatusCode.OK)
+                        {
+                            _logger.LogInformation("\nVendorConnect Controller: Card Response Validation Successfull for this funding account and user profile\n");
+                            Reg_GetFA_Card_Response_DTO responseCardDto = JsonConvert.DeserializeObject<Reg_GetFA_Card_Response_DTO>(AciResponseContent);
+                            return new ObjectResult(responseCardDto);
+                        }
+                        else
+                        {
+                            _logger.LogInformation("\nPayment Controller Registered: Card Response Validation Unsuccessfull for this funding account and user profile\n");
+                            DPCErrorModel errors = JsonConvert.DeserializeObject<DPCErrorModel>(ResponseValidationContent);
+                            return StatusCode(422, errors);
+                        }
+                    }
+                    else
+                    {
+                        throw new NotAcceptableException(vendorCode, lobCode);
+                    }
+
+                }
+                else if (AciResponse.StatusCode == HttpStatusCode.UnprocessableEntity)
+                {
+                    AciResponseContent = await AciResponse.Content.ReadAsStringAsync();
+
+
+                    DPCErrorModel errorDetails = JsonConvert.DeserializeObject<DPCErrorModel>(AciResponseContent);
+                    var formatedRes = new ObjectResult(errorDetails);
+                    formatedRes.StatusCode = errorDetails.error.status;
+                    return formatedRes;
+                }
+                else
+                {
+                    throw new BadRequestException(vendorCode, lobCode);
+
+                }
+
+            }
+            catch (HttpRequestException ex)
+            {
+                throw new ServiceNotAvailableException(vendorCode, lobCode);
+            }
+            catch (JsonReaderException ex)
+            {
+                throw new BadRequestException(vendorCode, lobCode);
+            }
+            catch (BrokenCircuitException e)
+            {
+                throw new CircuitBreakerException(vendorCode, lobCode);
+            }
+            catch (Exception e)
+            {
+                throw new BadRequestException(vendorCode, lobCode);
+            }
+        }
+
         [HttpPost]
         //[Route("CreateUnregisteredCardFundingAccount")]
         [Route("api/v{version:apiVersion}/unregistered/cardfundingaccount")]
@@ -154,7 +263,7 @@ namespace VendorConnect.API.Controllers
             {
                 RequestSchemaName = "FundingAccount/FundingAccount_UnregCard_RequestSchema.json";
                 string aciCardRequest = JsonConvert.SerializeObject(unreg_FA_Card_Request_DTO);
-               
+
                 RequestValidation = await _utilityService.ValidateRequestResponse(aciCardRequest, RequestSchemaName, vendorCode, lobCode);
                 RequestValidationContent = await RequestValidation.Content.ReadAsStringAsync();
 
@@ -233,12 +342,13 @@ namespace VendorConnect.API.Controllers
         [Route("api/v{version:apiVersion}/unregistered/achfundingaccount")]
         public async Task<IActionResult> CreateUnregisteredACHFundingAccount([FromBody] Unreg_FA_ACH_Request_DTO unreg_FA_ACH_Request_DTO)
         {
-            
-                _logger.LogInformation("VendorConnectController:: Create unregistered card funding account in ACI for the user ");
 
-                var vendorCode = Request.Headers["Vendor-Code"];
-                var lobCode = Request.Headers["Lob-Code"];
-            try { 
+            _logger.LogInformation("VendorConnectController:: Create unregistered card funding account in ACI for the user ");
+
+            var vendorCode = Request.Headers["Vendor-Code"];
+            var lobCode = Request.Headers["Lob-Code"];
+            try
+            {
                 // Request validation     FundingAccount_UnregACH_RequestSchema   //FundingAccount_RegUnreg_RequestSchema.json
                 RequestSchemaName = "FundingAccount/FundingAccount_UnregACH_RequestSchema.json";
                 string aciACHRequest = JsonConvert.SerializeObject(unreg_FA_ACH_Request_DTO);
@@ -317,12 +427,13 @@ namespace VendorConnect.API.Controllers
         [Route("api/v{version:apiVersion}/registered/cardfundingaccount")]
         public async Task<IActionResult> CreateRegisteredCardFundingAccount([FromBody] Reg_FA_Card_Request_DTO reg_FA_Card_Request_DTO)
         {
-           
-                _logger.LogInformation("VendorConnectController:: Create unregistered card funding account in ACI for the user ");
 
-                var vendorCode = Request.Headers["Vendor-Code"];
-                var lobCode = Request.Headers["Lob-Code"];
-            try { 
+            _logger.LogInformation("VendorConnectController:: Create unregistered card funding account in ACI for the user ");
+
+            var vendorCode = Request.Headers["Vendor-Code"];
+            var lobCode = Request.Headers["Lob-Code"];
+            try
+            {
                 // Request validation
                 RequestSchemaName = "FundingAccount/FundingAccount_RegCard_RequestSchema.json";
                 string aciCardRequest = JsonConvert.SerializeObject(reg_FA_Card_Request_DTO);
@@ -396,12 +507,13 @@ namespace VendorConnect.API.Controllers
         [Route("api/v{version:apiVersion}/registered/achfundingaccount")]
         public async Task<IActionResult> CreateRegisteredACHFundingAccount([FromBody] Reg_FA_ACH_Request_DTO reg_FA_ACH_Request_DTO)
         {
-           
-                _logger.LogInformation("VendorConnectController:: Create unregistered card funding account in ACI for the user ");
-             
-                var vendorCode = Request.Headers["Vendor-Code"];
-                var lobCode = Request.Headers["Lob-Code"];
-            try { 
+
+            _logger.LogInformation("VendorConnectController:: Create unregistered card funding account in ACI for the user ");
+
+            var vendorCode = Request.Headers["Vendor-Code"];
+            var lobCode = Request.Headers["Lob-Code"];
+            try
+            {
                 // Request validation
                 RequestSchemaName = "FundingAccount/FundingAccount_RegACH_RequestSchema.json";
                 string aciACHRequest = JsonConvert.SerializeObject(reg_FA_ACH_Request_DTO);
@@ -598,7 +710,7 @@ namespace VendorConnect.API.Controllers
         {
 
             string SCHEMA_NAME = string.Empty;
-          
+
             var vendorCode = Request.Headers["Vendor-Code"];
             var lobCode = Request.Headers["Lob-Code"];
 
@@ -608,7 +720,7 @@ namespace VendorConnect.API.Controllers
                 var reader = new StreamReader(Request.Body, encoding: Encoding.UTF8, detectEncodingFromByteOrderMarks: false);
                 paymentRequestJsonBody = await reader.ReadToEndAsync();
 
-                if(paymentRequestJsonBody == null)
+                if (paymentRequestJsonBody == null)
                 {
                     throw new BadRequestException(vendorCode, lobCode);
                 }
@@ -624,7 +736,7 @@ namespace VendorConnect.API.Controllers
                     _logger.LogInformation("\nVendorConnect Controller: Request Validation Successfull for Unregistered User.\n");
                     Reg_Payment_Request_DTO requestDto = JsonConvert.DeserializeObject<Reg_Payment_Request_DTO>(paymentRequestJsonBody);
                     _paymentRegServiceResponse = await _vendorConnectService.RegisteredPayment(requestDto);
-                     
+
 
                     if (_paymentRegServiceResponse.StatusCode == HttpStatusCode.OK)
                     {
@@ -769,8 +881,8 @@ namespace VendorConnect.API.Controllers
                     {
                         _logger.LogInformation("\nVendorConnect Controller: Response Fetched Successfull for Unregistered User.\n");
                         _paymentUnregServiceResponseContent = await _paymentUnregServiceResponse.Content.ReadAsStringAsync();
-                        
-                        if(_paymentUnregServiceResponseContent == null)
+
+                        if (_paymentUnregServiceResponseContent == null)
                         {
                             throw new NoContentException(vendorCode, lobCode);
                         }
@@ -784,7 +896,7 @@ namespace VendorConnect.API.Controllers
                         string responseKind = aciPaymentResponseJsonBody.SelectToken("fundingAccountSummary.kind").ToString();
                         responseKind = responseKind.ToLower();
 
-                       
+
                         if (responseKind.Equals("ach"))
                         {
                             _paymentResValidation = await _utilityService.ValidateRequestResponse(_paymentUnregServiceResponseContent, _paymentUnregAchResponseSchemaName, vendorCode, lobCode);
@@ -835,7 +947,7 @@ namespace VendorConnect.API.Controllers
                     {
                         throw new VendorException(vendorCode, lobCode, _paymentUnregServiceResponse.StatusCode);
                     }
-                    
+
                 }
                 else
                 {

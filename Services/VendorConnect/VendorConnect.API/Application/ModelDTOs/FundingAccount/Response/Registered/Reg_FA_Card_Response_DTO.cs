@@ -4,7 +4,7 @@
     {
 
         public string id { get; init; }
-        public Reg_OwnerDetails_Request_DTO owner { get; init; }
+        public Reg_GetFA_Owner_Response_DTO owner { get; init; }
 
         public string kind { get; init; }
         public string cardHolderName { get; init; }
@@ -19,7 +19,7 @@
         public string name { get; init; }
         public string paymentMethodKind { get; init; }
 
-        public BillingAddress_Request_DTO billingAddress { get; init; }
+        public BillingAddress_Response_DTO billingAddress { get; init; }
         public bool singleUse { get; init; } = false;
     }
 }
